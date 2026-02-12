@@ -1,0 +1,59 @@
+1. FizzBuzz using FOR loops
+
+1) FizzBuzz Rules
+1. If a number is divisible by 3, print Fizz!
+2. If a number is divisible by 5, print Buzz!
+3. If a number is divisible by 3 and 5, print FizzBuzz!
+4. Enable a user to select the starting number and finish number 
+5. The solution must contain a for loop!﻿
+
+
+﻿ Project Clues
+1. A function that produces a range of numbers could come in handy...
+2. How well do you remember conditional statements?
+3. An arithmetic operator that identifies a remainder of 0 could come in handy...
+4. Think carefully about the order you put the rules...
+
+2) FizzBuzz using WHILE Loops : implement same rules mentioned above.
+
+3) Number Guessing Game
+The goal of this game is to guess a secret number chosen by the computer within a limited number of attempts.
+Game Rules:
+• 	The computer randomly selects a number within a predefined range (e.g., 1 to 100).
+• 	The player has a fixed number of attempts (e.g., 7 tries) to guess the correct number.
+• 	After each guess:
+• 	If the guessed number is greater than the actual number, the game will display:
+"Too high! Try a smaller number."
+• 	If the guessed number is less than the actual number, the game will display:
+"Too low! Try a larger number."
+• 	If the player guesses the number correctly within the allowed attempts, they win the game.
+• 	If the player fails to guess the number within the given attempts, the game ends with a loss message revealing the correct number.
+
+4) Random Password Generator (Console App)
+
+The objective of this program is to generate a secure password using random characters and display it to the user through a console interface.
+
+# Requirements:
+- The program should generate a password consisting of:
+  - Random uppercase letters (A–Z)
+  - Random lowercase letters (a–z)
+  - Random digits (0–9)
+  - Random special characters (e.g., `!@#$%^&*`)
+- The password length should be fixed (e.g., 8–12 characters) or configurable by the user.
+- The generated password must be:
+  - Randomized  and unique each time the program runs.
+  - Displayed clearly on the console (UI).
+- The program should ensure that the password contains a mix of all character types for better security.
+
+---
+
+#Extension: CAPTCHA Functionality (Second Part)
+
+In the next stage, students will extend this application to simulate a CAPTCHA-like functionality:
+- Instead of just generating a password, the program will generate a random string (similar to CAPTCHA).
+- The user will be asked to retype the string exactly as shown.
+- If the input matches, the program confirms success; otherwise, it prompts the user to try again.
+
+---
+
+
