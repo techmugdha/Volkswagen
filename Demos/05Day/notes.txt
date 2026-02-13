@@ -1,0 +1,34 @@
+# File IO:
+- Files are named location on disk to store information
+- They are used to store data permanently.
+- Data is stored in non-volatile memory.
+- we can retrieve data whenever required.
+
+# Types of files:
+1. Text files:
+ - stores data in the form of characters. We can store data an strings.
+ - txt , JSON 
+2. Binary files:
+ - store data in the form of bytes
+ - audio, video, PDF, images
+
+# we can perform operations like:
+1. Read from file
+2. Write from file
+3. Merging the file data
+3. Removing the file
+
+
+# CSV :  Comma Seperated files.
+
+#-------------------------------------------------
+
+# OOP : everything revolves around class keyword
+# class keyword it is first citizen of your application: OOP based application 
+# names of the classes always starts with Upper case
+
+# function : everything revolves around def keyword
+# def keyword it is first citizen of your application: functional programming based application 
+# names of the function always starts with lower case
+
+# --------------------------------------------------
