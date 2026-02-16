@@ -1,0 +1,70 @@
+# Basics of Python
+# Data Structures : List, Tupes,Set, Dictionary etc
+# function: Normal Function, Built- in function, 
+# Python is aslo functional programming language :
+# Closures and Decorator
+# Error Handling
+# Class and object
+# Syntax of class
+# Constructor
+# Default, Non - parameterized, Parameterized Consructures.
+# How to create an object
+# type(), isinstance()
+# __dict__ : rDictionary containing class's namespace
+# __doc__: Class documentation string
+# __name__ : Class name / current module name.
+
+# Instance variables :  need to use it with self keyword.
+                    : To modify them, we have instance methods( self)
+# Class variables : Variables made for entire class.
+                  : Only one copy is created and distributed to all objects
+                  : Modification in class variable impact on all objects
+                  : To modify them, we have class methods, which implements 
+                    @classmethod decorator(cls)
+
+# getter, setter:
+# Built in methods : __getattribute__('attribute name')
+         : __setattr__('attribute name','attribute value') 
+# Custom instancemethods: setAttributeValue(), getAttributeValue()
+
+# Instance Methods
+# Class Methods
+# Static Methods:
+- Methods which performs operation on external data.
+- It can also perform operations on class data.
+- No need to pass object or class references.
+- Created using decorator : @staticmethod
+- use methods directly with class name.
+- Clarity: Declares that the method doesn't depend on instance state.
+- Organization: Keeps related untility functions inside the class instead of floating around as standalone functions
+- Convenience: You don't need to instantiate Bank just to calculate interest.
+
+
+# Inheritance:
+- extending exisiting functionality to derived entities.
+- inhert attributes, methods
+- Parent class, Base class, Existing class or Super class
+- Child class, sub class, derived class
+
+# Super base / Super parent class to all is : built -in Object class
+# type() ---> <class, 'class_name'>
+
+# Single - level Inheriatnce : One Parent and One Class
+ - ctor overrinding
+ - variables overriding
+ - ctor channing: super().__init__(nm,loc)
+
+# Multi - level Inhertance : Parent class and child class further inherited into new class, forming multiple levels.
+
+# Hierarchical Inheritance:
+ One Parent and multiple child classes.
+
+# Multiple Inheritance
+ Class is derived from - multiple base classes
+ 
+# Hybrid Inheritance
+
+#---> search ---> child1(Emp) --> in base classes(A-> B->C : left to right)
+# for example : class Emp(A,B,C):
+
+# Polymorphism: same object with many form: +- 2,3=5,'a','b'='ab', len
