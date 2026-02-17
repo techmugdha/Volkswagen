@@ -1,0 +1,52 @@
+# OOP: 
+## Types of Inhertance
+## Polymorphism
+## Data Hiding
+
+## Public, Private, Protected members
+
+# @staticmethod
+# @classmethod
+# @property
+
+# Design Patterns:
+# common problems ==> common solution
+
+# SOLID, DRY, principles -  guideline /common Rules
+
+# Singleton Pattern
+: Creatational Design Pattern : (Create an Object)
+: Only one object per application should be allowed to get created and used.
+1. : class Config:  we are reading config files.
+# You restrict object creation to one object per application.
+: create a class whos object can give only access to these config data
+2. class Logger:
+: we have decided to write a log in txt file.
+: entire application log we need to write it in the same file.
+: many modules -> via log -> logger writting it in a single txt file .c:/desktop/log.txt
+// with open() as f:
+
+# object pooling [obj1, obj2, obj3] : database operation application
+            : Netflix app: subscription for family : devices allowed = 3 (mobile, mobile, TV)
+
+
+# static
+# Abstract, interface
+
+# Example:
+Db operations : insert, update, delete
+Client: MySQL Db : insert, update, delete
+2nd requirement: Oracle db server : insert, update, delete
+3rd : MS SQl Server : insert, update, delete
+
+# Single Responsibilty priciple
+class MySQL:
+def insert
+def update
+def delete
+-------------------------------
+# common : insert, update, delete : Prototype/ Template/ Open - contaract
+# open contract : client and developer : public functionalities 
+# repeat sam ecode bcoz of obj based dependency
+# Object creation responsibility: Factory Pattern
+# single object / Single method --> creates/ provides other class objects
