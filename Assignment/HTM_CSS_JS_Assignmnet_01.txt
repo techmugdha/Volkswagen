@@ -1,0 +1,16 @@
+1) Write a javascript program, to display :
+		- h4 : There is a message for you!!
+		- text 'wait..' in <p> tag 
+		- a button say click here to get it!
+but, with these effects :
+- text font should get increased by 20px and with different color every time, after every click on button
+- after 4 clicks , display message 'Happy Birthday' in the same <p> tag, remove previos contents and style associated with it. and create a happening style for bday message.
+- hint: you may use image / gif as a end message.
+-hint: use display property , DOM manipulation.
+
+2) write JavaScript prog:
+- display a bulb on UI with off effect first
+- provide a button with functionality: turn bulb on or off.
+- note : use two buttons to turn on and off the bulb light.
+
+3) display img of a car on UI, provide a button, and every button click , move the car forward.  
