@@ -1,0 +1,28 @@
+body{
+  font-family: cursive;
+  background-color: azure;
+}
+header{
+  height: 70px;
+  width: 100vw;
+  background-color: dodgerblue;
+  color:#fff;
+  padding: 10px;
+}
+nav{
+  height: 50px;
+  width: 100vw;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+main{
+  width: 100vw;
+}
+footer {
+  height: 70px;
+  width: 100vw;
+  background-color:gold;
+  color: #00f;
+  padding: 10px;
+  text-align: center;
+}

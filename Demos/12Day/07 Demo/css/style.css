@@ -1,0 +1,23 @@
+.max {
+   font-size: larger;
+   font-weight: 900;
+   background-color: bisque;
+   color: darkviolet;
+}
+
+.min {
+   font-size: larger;
+   font-weight: 900;
+   background-color: gold;
+   color: dodgerblue;
+   margin: 10px;
+}
+
+.container{
+  height: 200px;
+  width: 200px;
+  margin : 10px auto;
+  padding: 10px;
+  background-color: lightskyblue;
+  color: rgb(1, 1, 38);
+}
