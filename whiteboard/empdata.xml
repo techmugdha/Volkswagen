@@ -1,0 +1,11 @@
+<?xml?> 
+<Employees>
+	<Employee empid="1">
+		<name>Peter Bishop</name>
+		<role>jr. developer</role>
+	</Employee>
+	<Employee empid="2">
+		<name>Walter Bishop</name>
+		<role>Manager</role>
+	</Employee>
+</Employees>

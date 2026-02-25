@@ -1,0 +1,10 @@
+{
+  "Name":"Hugh Jackman",
+  "age":27,
+  "address":{
+    "street": "221B, Baker Street",
+    "City":"London"
+  },
+  "isActive":true,
+  "cars":["BMW","Audi"]
+}
