@@ -1,21 +1,17 @@
-// import Login from './Login';
-// import Secure from './Secure';
 import { Navigate } from 'react-router-dom';
 
-function ProtectedRoute({ children }) {
+function ProtectedRoutes({ children }) {
   debugger;
-  // id user auth?
-  let logintoken = sessionStorage.getItem('token');
+  let loginToken = sessionStorage.getItem('token');
   if (
-    logintoken !== null &&
-    logintoken !== undefined &&
-    logintoken !== '' &&
-    logintoken === 'A#12$a3'
+    loginToken !== null &&
+    loginToken !== undefined &&
+    loginToken !== '' &&
+    loginToken === 'A$12#a3'
   ) {
-    debugger;
     return <div>{children}</div>;
   } else {
-    debugger;
+    // Pass the targeted component name via state
     return (
       <Navigate
         to='/Login'
@@ -26,4 +22,4 @@ function ProtectedRoute({ children }) {
   }
 }
 
-export default ProtectedRoute;
+export default ProtectedRoutes;

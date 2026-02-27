@@ -5,6 +5,7 @@ import Contact from './Contact';
 import DefaultPage from './DefaultPage';
 import Secure from './Secure';
 import ProtectedRoute from './ProtectedRoute';
+import Login from './Login';
 
 function Dashboard() {
   return (
@@ -21,6 +22,8 @@ function Dashboard() {
         <Route path='/Home' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/Login' element={<Login />} />
+
         <Route
           path='/Secure'
           element={

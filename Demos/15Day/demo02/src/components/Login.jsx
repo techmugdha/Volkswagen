@@ -9,13 +9,14 @@ function Login() {
 
   const SignIn = () => {
     debugger;
-    // validate user: if true set token
-    sessionStorage.setItem('token', 'A#12$a3');
+    // validate user
+    sessionStorage.setItem('token', 'A$12#a3');
     navigate(`/${target}`);
   };
+
   return (
     <div>
-      <h1>Login</h1>
+      <h1>Login Component</h1>
       <button onClick={SignIn}>Login</button>
     </div>
   );
